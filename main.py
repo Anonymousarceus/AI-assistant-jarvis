@@ -12,7 +12,7 @@ speaker=win32com.client.Dispatch("SAPI.SpVoice")
 chatStr=""
 def ai(prompt):
     global chatStr
-    openai.api_key ="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"
+    openai.api_key ="Write your Api key"
     text=f"Open AI response for prompt:{prompt}\n******\n\n"
 
     response = openai.Completion.create(
