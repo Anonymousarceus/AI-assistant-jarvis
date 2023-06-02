@@ -1,13 +1,12 @@
 # J.A.R.V.I.S
 # It is an ai dekstop assitance which will let you perform many task just by saying it
-#Note-> this code is applicable for windows
+# Note-> this code is applicable for windows
 
 import speech_recognition as sr
 import os
 import webbrowser
 import openai
 import datetime
-# from config import apikey
 import win32com.client
 speaker=win32com.client.Dispatch("SAPI.SpVoice")
 chatStr=""
